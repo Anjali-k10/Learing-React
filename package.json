@@ -2,9 +2,8 @@
   "name": "react1",
   "version": "1.0.0",
   "description": "learning react",
-  
   "scripts": {
-    "start":"parcel index.html",
+    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
   },
@@ -29,7 +28,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 chrome version"
   ]
 }
