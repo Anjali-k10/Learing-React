@@ -2,13 +2,13 @@ import {CDN_URL} from "../utils/content"
 const RestaurantCard=(props)=>{
     const {resData}=props
      const {
-        cloudinaryImageId,
+      cloudinaryImageId,
      name,
      cuisines,
      costForTwo,
      deliveryTime,
      avgRating,
-   }=resData?.data
+   }=resData?.info
      return (
         <div className="res-card" style={{backgroundColor:"#f0f0f0"}}>
           <img className='res-logo'

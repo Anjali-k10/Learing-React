@@ -18,12 +18,18 @@
     list-style-type: none;
     display: flex;
    font-size: 24px;
-   
+   }
+.nav-items>ul>li>a:hover{
+    font-size: 24.5px;
    }
    .nav-items > ul > li{
        margin: 10px; 
        padding: 40px;
-       /*  font-weight: 500; */
+        font-weight: 500;
+}
+   .nav-items > ul > li>a{
+       text-decoration: none;
+       color: #000;
 }
 .res-card{
     width: 230px;
@@ -40,13 +46,48 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.filter{
-    padding:10px;
-    margin: 10px;
-    cursor: pointer;
-}
 .res-logo{
     width: 100%;
     height: 220px;
     object-fit: contain;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 200px;
+    height: 300px;
+    background-color:rgb(218, 213, 213) ;
+    margin: 20px;
+}
+.login{
+    margin: auto;
+    padding: 0px 20px;
+    cursor: pointer;
+    width: 130px;
+    height: 30px;
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+.login:hover{
+   font-size: 23px;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    padding:10px;
+    margin: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.Top-btn{
+    padding:10px;
+    margin: 10px;
+    cursor: pointer;
 }
