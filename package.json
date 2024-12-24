@@ -21,8 +21,13 @@
   },
   "homepage": "https://github.com/Anjali-k10/Learing-React#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
     "parcel": "^2.13.3",
-    "process": "^0.11.10"
+    "postcss": "^8.4.49",
+    "postcss-plugin": "^1.0.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.17"
   },
   "dependencies": {
     "react": "^19.0.0",

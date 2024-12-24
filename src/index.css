@@ -1,4 +1,8 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -90,4 +94,4 @@
     padding:10px;
     margin: 10px;
     cursor: pointer;
-}
+} */
