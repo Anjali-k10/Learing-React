@@ -16,8 +16,8 @@ const RestaurantCard=(props)=>{
            src=
            {CDN_URL+cloudinaryImageId} 
            />
-           <h3 className="font-bold py-2">{name}</h3>
-           <h4>{cuisines}</h4>
+           <h3 className="font-bold py-2 text-wrap">{name}</h3>
+           <h4 className="text-pretty">{cuisines}</h4>
            <h5>{avgRating} stars </h5>
            <h5>{costForTwo} </h5>
            <h5>{deliveryTime} </h5>

@@ -19,7 +19,7 @@ const RestaurantMenu = () => {
 
   const { itemCards } =
     ResList?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-  console.log(ResList?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
+  // console.log(ResList?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
   const categories =
     ResList?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
       (c) =>
